@@ -3,9 +3,13 @@ import requests
 import urllib.parse
 import time
 from transformers import pipeline
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Google Books API key
-google_books_api_key = "AIzaSyAf-GF13cw6ZSObioHfUvbOo8MLgrW1yy4"
+google_books_api_key = os.getenv("GOOGLE_BOOKS_API_KEY")
 
 
 

@@ -10,11 +10,17 @@ Book Recommender is a Streamlit web application that helps users find the best b
    ```bash
    git clone https://github.com/GitGautamHub/book-recommender.git
    cd Book-Recommender
-2. Install dependencies:
+   
+
+2. Create a `.env` file in the project root and add your API key:
+   ```bash
+   GOOGLE_BOOKS_API_KEY=your_api_key_here
+
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
 
-3. Run the application:
+4. Run the application:
    ```bash
    streamlit run "BookRecommender.py"
 
